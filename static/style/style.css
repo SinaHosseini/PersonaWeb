@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     font-family: 'Vazirmatn', sans-serif !important;
     color: #fff !important;
 }
@@ -27,12 +28,46 @@ body::before {
     z-index: -1;
 }
 
-.card-contact{
+.card-contact {
     background: rgba(255, 255, 255, 0.2);
 }
 
+.card-tec {
+    position: relative;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.2);
+    overflow: hidden;
+}
+
+.card-tec::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -150%;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(120deg,
+            transparent 0%,
+            rgba(255, 255, 255, 0.6) 50%,
+            transparent 100%);
+    animation: shine 2s infinite;
+}
+
+@keyframes shine {
+    0% {
+        left: -150%;
+    }
+    100% {
+        left: 150%;
+    }
+}
+
+.text-tec {
+    font-size: 12px;
+}
+
 @media only screen and (max-width: 576px) {
-    .row.justify-content-center.align-items-center.g-3.mt-5 > .col-md.col-12{
+    .row.justify-content-center.align-items-center.g-3.mt-5>.col-md.col-12 {
         border: none !important;
     }
 }
