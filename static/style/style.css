@@ -17,9 +17,11 @@ body {
 body::before {
     content: '';
     position: fixed;
+    margin: 0;
+    padding: 0;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 110%;
     height: 100%;
     background: url('../images/background.jpg');
     background-size: cover;
@@ -66,8 +68,16 @@ body::before {
     font-size: 12px;
 }
 
+.border-bottom.pb-2 .lh-lg{
+        text-align: justify;
+    }
+
 @media only screen and (max-width: 576px) {
     .row.justify-content-center.align-items-center.g-3.mt-5>.col-md.col-12 {
         border: none !important;
+    }
+
+    .text-tec .card-tec {
+        text-align: center;
     }
 }
