@@ -31,7 +31,7 @@ body::before {
 }
 
 .card.border-0.shadow-lg.text-white {
-    background: linear-gradient(90deg,rgba(155, 93, 224, 0.5) 0%, rgba(187, 225, 250, 0.51) 100%);
+    background: linear-gradient(45deg,rgba(27, 38, 44, 0.5) 0%, rgba(15, 76, 117, 0.51) 100%);
 }
 
 .card-contact {
