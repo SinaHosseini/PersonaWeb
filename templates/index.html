@@ -1,7 +1,7 @@
 {% extends 'layout.html' %}
 
 {% block content %}
-<div class="card border-0 border-bottom shadow-lg row bg-transparent text-white">
+<div class="card border-0 shadow-lg text-white">
     <div class="card-body mt-5 text-center">
         <h1 class="display-2 fw-bold">
             سید سینا حسینی واعظ
@@ -57,7 +57,7 @@
         <div class="border-bottom border-2 pb-2">
             <h4>مشخصات فردی</h4>
         </div>
-        <ul class="list-group list-group-flush">
+        <ul class="list-group list-group-flush px-0">
             <li class="list-group-item bg-transparent text-white mt-3 border-0">
                 تاریخ تولد: 1382/03/21
             </li>
@@ -74,26 +74,30 @@
             <h3 class="fw-bold pb-3 border-bottom border-2">
                 درباره من
             </h3>
-            <p class="lh-lg">از سال ۱۴۰۰ وارد دنیای برنامه‌نویسی شدم و با شرکت در دوره‌های تخصصی و انجام پروژه‌های متنوع
-                شخصی و تیمی، تجربه عملی ارزشمندی کسب کردم.
-            </p>
-            <p class="lh-lg">
-                به‌عنوان یک Full-Stack Developer با بیش از ۲ سال تجربه حرفه‌ای، توانسته‌ام پروژه‌های پیچیده
-                را از ایده تا اجرا پیش ببرم. مسیر یادگیری‌ام از HTML/CSS آغاز شد و با ادامه در Python (هوش مصنوعی و
-                Back-End)، سپس تخصص در ASP.NET Core، C#, SQL، Blazor و همچنین فریم‌ورک‌های Front-End، به سطح توسعه
-                حرفه‌ای رسید.
-            </p>
-            <p class="lh-lg">
-                ویژگی اصلی من خودآموزی سریع، تحقیق مداوم و ارائه راه‌حل‌های نوآورانه و کارآمد است. این مهارت‌ها به من
-                کمک کرده تا چالش‌های فنی را با دقت و سرعت حل کنم و در نقش یک توسعه‌دهنده Mid-Level ارزش‌آفرینی کنم.
-            </p>
+            <div class="px-3 px-md-0">
+                <p class="lh-lg">از سال ۱۴۰۰ وارد دنیای برنامه‌نویسی شدم و با شرکت در دوره‌های تخصصی و انجام پروژه‌های
+                    متنوع
+                    شخصی و تیمی، تجربه عملی ارزشمندی کسب کردم.
+                </p>
+                <p class="lh-lg">
+                    به‌عنوان یک Full-Stack Developer با بیش از ۲ سال تجربه حرفه‌ای، توانسته‌ام پروژه‌های پیچیده
+                    را از ایده تا اجرا پیش ببرم. مسیر یادگیری‌ام از HTML/CSS آغاز شد و با ادامه در Python (هوش مصنوعی و
+                    Back-End)، سپس تخصص در ASP.NET Core، C#, SQL، Blazor و همچنین فریم‌ورک‌های Front-End، به سطح توسعه
+                    حرفه‌ای رسید.
+                </p>
+                <p class="lh-lg">
+                    ویژگی اصلی من خودآموزی سریع، تحقیق مداوم و ارائه راه‌حل‌های نوآورانه و کارآمد است. این مهارت‌ها به
+                    من
+                    کمک کرده تا چالش‌های فنی را با دقت و سرعت حل کنم و در نقش یک توسعه‌دهنده Mid-Level ارزش‌آفرینی کنم.
+                </p>
+            </div>
         </div>
 
         <div class="mt-4 border-bottom pb-2">
             <h3 class="fw-bold pb-3 border-bottom border-2">
                 سوابق تحصیلی
             </h3>
-            <ul class="list-group list-group-flush">
+            <ul class="list-group list-group-flush px-3 px-md-5">
                 <li class="list-group-item bg-transparent text-white border-0 mt-3">
                     <h5 class="fw-bold">کارشناسی مهندسی کامپیوتر - نرم افزار</h5>
                     <p class="mb-0">موسسه آمورش عالی توس</p>
@@ -112,7 +116,7 @@
             <h3 class="fw-bold pb-3 border-bottom border-2">
                 سوابق شغلی
             </h3>
-            <ul class="list-group list-group-flush">
+            <ul class="list-group list-group-flush px-3 px-md-5">
                 <li class="list-group-item bg-transparent text-white border-0 mt-3">
                     <h5 class="fw-bold">دوره کارآموزی PyDeployment</h5>
                     <p class="mb-0">شرکت پارس تک</p>
@@ -132,14 +136,14 @@
             <h3 class="fw-bold pb-3 border-bottom border-2">
                 پروژه ها
             </h3>
-            <ul class="list-group list-group-flush">
+            <ul class="list-group list-group-flush px-3 px-md-5">
                 <li class="list-group-item bg-transparent text-white mt-3">
                     <div class="d-flex flex-column flex-md-row align-items-center gap-3">
                         <img src="../static/images/GTA.webp" alt="gta logo"
                             class="img-thumbnail bg-transparent border-0">
                         <h4 class="text-nowrap">پنل مدیریتی گوموش تجارت آزادی (GTA)</h4>
                     </div>
-                    <ul class="list-group list-group-flush text-justify">
+                    <ul class="list-group list-group-flush text-justify mt-3 px-0 px-md-5">
                         <li class="list-group-item bg-transparent text-white border-0">
                             توسعه کامل Front-End و Back-End به همراه مدیریت دیتابیس (SQL Server)
                         </li>
@@ -173,12 +177,12 @@
                     </div>
                 </li>
                 <li class="list-group-item bg-transparent text-white mt-3">
-                    <div class="d-flex flex-column flex-md-row  align-items-center gap-3">
+                    <div class="d-flex flex-column flex-md-row align-items-center gap-3">
                         <img src="../static/images/kavan.png" alt="kavan logo"
                             class="img-thumbnail bg-transparent border-0">
                         <h4 class="text-nowrap">پنل مدیریتی نقره جات کاوان</h4>
                     </div>
-                    <ul class="list-group list-group-flush text-justify">
+                    <ul class="list-group list-group-flush text-justify mt-3 px-0 px-md-5">
                         <li class="list-group-item bg-transparent text-white border-0">
                             توسعه کامل Front-End و Back-End به همراه مدیریت دیتابیس (SQL Server)
                         </li>
@@ -234,7 +238,7 @@
                             class="img-thumbnail bg-transparent border-0">
                         <h4 class="text-nowrap">وبسایت فروشگاهی نقره جات کاوان</h4>
                     </div>
-                    <ul class="list-group list-group-flush text-justify">
+                    <ul class="list-group list-group-flush text-justify mt-3 px-0 px-md-5">
                         <li class="list-group-item bg-transparent text-white border-0">
                             توسعه کامل Front-End و Back-End به همراه مدیریت دیتابیس (SQL Server)
                         </li>
@@ -279,12 +283,12 @@
                     </div>
                 </li>
                 <li class="list-group-item bg-transparent text-white mt-3">
-                    <div class="d-flex flex-column flex-md-row  align-items-center gap-3">
+                    <div class="d-flex flex-column flex-md-row align-items-center gap-3">
                         <img src="../static/images/zaerin.png" alt="zaerin logo" width="100"
                             class="img-thumbnail bg-transparent border-0">
                         <h4 class="text-nowrap">پنل مدیریتی زائرین پیاده حضرت رضا (ع)</h4>
                     </div>
-                    <ul class="list-group list-group-flush text-justify">
+                    <ul class="list-group list-group-flush text-justify mt-3 px-0 px-md-5">
                         <li class="list-group-item bg-transparent text-white border-0">
                             توسعه Back-End و Front-End همراه با طراحی دیتابیس در SQL Server
                         </li>
@@ -314,12 +318,12 @@
                     </div>
                 </li>
                 <li class="list-group-item bg-transparent text-white mt-3">
-                    <div class="d-flex flex-column flex-md-row  align-items-center gap-3">
+                    <div class="d-flex flex-column flex-md-row align-items-center gap-3">
                         <img src="../static/images/toos.jpg" alt="logo toos" width="100"
-                            class="img-thumbnail bg-transparent border-0">
+                            class="img-thumbnail bg-transparent rounded-circle border-0">
                         <h4>سامانه راگیری الکترونیک موسسه آموزش عالی توس</h4>
                     </div>
-                    <ul class="list-group list-group-flush text-justify">
+                    <ul class="list-group list-group-flush text-justify mt-3 px-0 px-md-5">
                         <li class="list-group-item bg-transparent text-white border-0">
                             طراحی و توسعه Back-End همراه با پیاده‌سازی معماری پروژه بر اساس Clean Architecture
                         </li>
@@ -361,7 +365,7 @@
                 <div class="border-bottom border-2 pb-2">
                     <h4>مشخصات فردی</h4>
                 </div>
-                <ul class="list-group list-group-flush">
+                <ul class="list-group list-group-flush px-0">
                     <li class="list-group-item bg-transparent text-white mt-3 border-0">
                         تاریخ تولد: 1382/03/21
                     </li>
